@@ -19,3 +19,27 @@
 このスクリプトでは、TwitterSearchScraperを使用してツイートを取得しています。<br>TwitterSearchScraperは、Twitter検索結果のページをスクレイピングして、ツイートの属性を取得するためのものです。<br>APIキーなどの認証情報を必要とせず、無料で使用できます。<br>
 
 #### ただし、Twitterがスクレイピングに対して厳しい対策を取る可能性があるため、注意が必要です。
+
+*************************************************************************************************************************************************************************
+
+#### This Python script is designed to scrape the latest tweets of a given user (twitter_handle) and save them to a CSV file without using the Twitter API.<br>
+
+#### The steps to run the script are as follows
+
+- First, import the necessary libraries and modules.
+- Specify the twitter_handle (@hogehoge) of the Twitter account to be scraped.
+- Create an empty list attributes_container to store the attributes of tweets.
+- Set max_tweets = ***** for the maximum number of tweets to be scraped.
+- Set the time zone for the scraping target to UTC+9 (Japan time).
+- Create a function scrape_tweet to extract the attributes of tweets.
+- Use TwitterSearchScraper to scrape the latest tweets of the specified user.
+- Add the attributes of each scraped tweet to the attributes_container list using the scrape_tweet function.
+- Create a Pandas DataFrame using the scraped tweet attributes.
+- Save the DataFrame to a CSV file.
+- Output a message indicating that the scraping was successful.
+- This script uses TwitterSearchScraper to retrieve tweets.
+
+TwitterSearchScraper is used for scraping Twitter search result pages to obtain the attributes of tweets.
+It does not require API keys or other authentication information and is free to use.
+
+However, be aware that Twitter may take strict measures against scraping.
