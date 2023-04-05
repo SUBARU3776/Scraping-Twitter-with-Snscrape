@@ -55,6 +55,9 @@ except Exception as e:
 # Creating a dataframe from the tweets list above
 tweets_df = pd.DataFrame(attributes_container, columns=["Date Created", "Tweet Id", "ID", "user_name", "like_count", "retweet_count", "reply_count", "impression_count", "source", "Tweets"])
 
+# Remove newline characters from the "Tweets" column
+tweets_df["Tweets"] = tweets_df["Tweets"].str.replace('\n', '')
+
 # Save dataframe to csv
 try:
     now = datetime.datetime.now()
