@@ -1,5 +1,5 @@
 # Scraping-Twitter-with-Snscrape
-#### このPythonスクリプトはTwitter APIを使用せずに、指定されたユーザー（twitter_handle）の最新のツイートをスクレイピングして、それらをCSVファイルに保存するためのものです。
+### このPythonスクリプトはTwitter APIを使用せずに、指定されたユーザー（twitter_handle）の最新のツイートをスクレイピングして、それらをCSVファイルに保存するためのものです。
 <br>
 
 #### スクリプトの実行手順は次の通りです。
@@ -22,7 +22,7 @@
 
 *************************************************************************************************************************************************************************
 
-#### This Python script is designed to scrape the latest tweets of a given user (twitter_handle) and save them to a CSV file without using the Twitter API.<br>
+### This Python script is designed to scrape the latest tweets of a given user (twitter_handle) and save them to a CSV file without using the Twitter API.<br>
 
 #### The steps to run the script are as follows
 
@@ -42,4 +42,9 @@
 TwitterSearchScraper is used for scraping Twitter search result pages to obtain the attributes of tweets.
 It does not require API keys or other authentication information and is free to use.
 
-However, be aware that Twitter may take strict measures against scraping.
+### However, be aware that Twitter may take strict measures against scraping.
+<br>
+<br>
+<br>
+![2023-04-05_09h34_5000](https://user-images.githubusercontent.com/71259928/230108436-0b91af37-1015-4fb9-82f1-e0329f1abda2.png)
+
