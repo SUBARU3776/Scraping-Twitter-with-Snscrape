@@ -70,3 +70,4 @@ except Exception as e:
 
 # Print success message
 print(f"Scraping of {twitter_handle} completed successfully! {len(attributes_container)} tweets scraped and saved to {filename}")
+
