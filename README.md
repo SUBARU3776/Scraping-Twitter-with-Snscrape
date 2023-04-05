@@ -46,5 +46,5 @@ It does not require API keys or other authentication information and is free to 
 <br>
 <br>
 <br>
-![2023-04-05_09h34_5000](https://user-images.githubusercontent.com/71259928/230108436-0b91af37-1015-4fb9-82f1-e0329f1abda2.png)
+
 
