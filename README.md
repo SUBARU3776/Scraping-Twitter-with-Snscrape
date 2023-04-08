@@ -45,7 +45,4 @@ It does not require API keys or other authentication information and is free to 
 ### However, be aware that Twitter may take strict measures against scraping.
 <br>
 <br>
-![2023-04-05_09h34_5000](https://user-images.githubusercontent.com/71259928/230110256-383f094a-c0bd-41cb-9115-93e1f1d2a3b8.png)
-<br>
-
-
+![2023-04-05_09h34_5000](https://user-images.githubusercontent.com/71259928/230695276-7f81fa9c-d71a-407d-b337-05b9a1161f95.png)
