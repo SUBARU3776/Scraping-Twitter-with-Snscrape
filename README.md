@@ -42,7 +42,5 @@
 TwitterSearchScraper is used for scraping Twitter search result pages to obtain the attributes of tweets.
 It does not require API keys or other authentication information and is free to use.
 
-### However, be aware that Twitter may take strict measures against scraping.
-<br>
-<br>
-![2023-04-05_09h34_50](https://user-images.githubusercontent.com/71259928/231039188-70d35ef2-fbe3-475d-9fe6-b474e8cab9ce.png)
+### However, be aware that Twitter may take strict measures against scraping.![2023-04-05_09h34_5000](https://user-images.githubusercontent.com/71259928/231039348-c34d085c-a813-4b8d-877b-14e9a45f7dc7.png)
+
