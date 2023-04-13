@@ -1,15 +1,12 @@
 import snscrape.modules.twitter as sntwitter
 import pandas as pd
 import datetime
-import os
 import requests.exceptions
 from concurrent.futures import ThreadPoolExecutor
 
-# Change CWD
-os.chdir('D:\Python\snscrape')
 
 # Set the Twitter handle to search for
-twitter_handle = "from:Hidetoshi_H_"
+twitter_handle = "from:hogehoge"
 
 # Extract the handle from the search query for use in the file name
 handle = twitter_handle.split(":")[1]
