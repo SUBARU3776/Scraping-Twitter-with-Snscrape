@@ -19,6 +19,7 @@
 このスクリプトでは、TwitterSearchScraperを使用してツイートを取得しています。<br>TwitterSearchScraperは、Twitter検索結果のページをスクレイピングして、ツイートの属性を取得するためのものです。<br>APIキーなどの認証情報を必要とせず、無料で使用できます。<br>
 
 #### ただし、Twitterがスクレイピングに対して厳しい対策を取る可能性があるため、注意が必要です。
+- ##### v2.0にエラーハンドリングを追加しました。v2.0に進行状況を表記するようにしました。
 
 *************************************************************************************************************************************************************************
 
@@ -42,5 +43,6 @@
 TwitterSearchScraper is used for scraping Twitter search result pages to obtain the attributes of tweets.
 It does not require API keys or other authentication information and is free to use.
 
-### However, be aware that Twitter may take strict measures against scraping.![2023-04-05_09h34_5000](https://user-images.githubusercontent.com/71259928/231039348-c34d085c-a813-4b8d-877b-14e9a45f7dc7.png)
+### However, be aware that Twitter may take strict measures against scraping.
+- ##### Added error handling to v2.0. v2.0 now shows progress status.![2023-04-05_09h34_5000](https://user-images.githubusercontent.com/71259928/231039348-c34d085c-a813-4b8d-877b-14e9a45f7dc7.png)
 
