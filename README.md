@@ -13,6 +13,7 @@
 - TwitterSearchScraperを使用して、指定されたユーザーの最新のツイートをスクレイピングします。
 - scrape_tweet関数を使用してスクレイピングされた各ツイートの属性をattributes_containerリストに追加します。
 - スクレイピングされたツイート属性を使用してPandas DataFrameを作成します。
+- テキストはフラット化されます。
 - DataFrameをCSVファイルに保存します。
 - スクレイピングが成功したことを示すメッセージを出力します。
 
