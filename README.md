@@ -37,9 +37,11 @@
 - Use TwitterSearchScraper to scrape the latest tweets of the specified user.
 - Add the attributes of each scraped tweet to the attributes_container list using the scrape_tweet function.
 - Create a Pandas DataFrame using the scraped tweet attributes.
+- Text will be flattened.
 - Save the DataFrame to a CSV file.
 - Output a message indicating that the scraping was successful.
-- This script uses TwitterSearchScraper to retrieve tweets.
+
+This script uses TwitterSearchScraper to retrieve tweets.
 
 TwitterSearchScraper is used for scraping Twitter search result pages to obtain the attributes of tweets.
 It does not require API keys or other authentication information and is free to use.
