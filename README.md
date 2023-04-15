@@ -21,7 +21,6 @@
 
 #### ただし、Twitterがスクレイピングに対して厳しい対策を取る可能性があるため、注意が必要です。
 - ##### v2.0にエラーハンドリングを追加しました。v2.0に進行状況を表記するようにしました。
-- ##### v3.0でcolor_mapの定義を削除し、countsデータフレームのsource列をループ、それぞれのsourceに対してランダムな色を割り当てるよう変更しました。これにより未知の"source"を検知した場合にも対応が可能になります。
 *************************************************************************************************************************************************************************
 
 ### This Python script is designed to scrape the latest tweets of a given user (twitter_handle) and save them to a CSV file without using the Twitter API.<br>
@@ -47,6 +46,5 @@ TwitterSearchScraper is used for scraping Twitter search result pages to obtain 
 It does not require API keys or other authentication information and is free to use.
 
 ### However, be aware that Twitter may take strict measures against scraping.
-- ##### Added error handling to v2.0. v2.0 now shows progress status.
-- ##### In v3.0, the definition of color_map was removed and the source column of the counts data frame was looped and a random color was assigned to each source. This allows us to respond when an unknown "source" is detected.![2023-04-05_09h34_5000](https://user-images.githubusercontent.com/71259928/231039348-c34d085c-a813-4b8d-877b-14e9a45f7dc7.png)
+- ##### Added error handling to v2.0. v2.0 now shows progress status.![2023-04-05_09h34_5000](https://user-images.githubusercontent.com/71259928/231039348-c34d085c-a813-4b8d-877b-14e9a45f7dc7.png)
 
