@@ -1,7 +1,8 @@
-# Scraping Twitter with Snscrape (Twitterの改変に伴いこちらのスクリプトは利用できません)
+# Scraping Twitter with Snscrape 
+### Twitterの改変に伴い、現在こちらのスクリプトは利用できません
 ### このPythonスクリプトはTwitter APIを使用せずに、指定されたユーザー（twitter_handle）の最新のツイートをスクレイピングして、それらをCSVファイルに保存するためのものです。
 <br>
-※ 現在、Twitterの改変に伴いこちらのスクリプトは利用できません。<br>
+<br>
 
 #### スクリプトの実行手順は次の通りです。
 
